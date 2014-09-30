@@ -1,0 +1,54 @@
+{
+  "name": "author-regex",
+  "description": "Regular expression for parsing an `author` string into an object following npm conventions.",
+  "version": "0.2.1",
+  "homepage": "https://github.com/jonschlinkert/author-regex",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/author-regex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/author-regex/issues"
+  },
+  "main": "index.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/author-regex/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "author",
+    "authors",
+    "exec",
+    "expression",
+    "extract",
+    "maintainer",
+    "maintainers",
+    "match",
+    "package",
+    "parse",
+    "person",
+    "pkg",
+    "re",
+    "regex",
+    "regexp",
+    "regular"
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "mocha -R test"
+  },
+  "devDependencies": {
+    "should": "^4.0.4",
+    "verb": ">= 0.2.6",
+    "verb-tag-jscomments": ">= 0.2.0",
+    "mocha": "*"
+  }
+}
