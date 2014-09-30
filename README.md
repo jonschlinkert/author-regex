@@ -5,6 +5,13 @@
 
 This the regex used by [parse-authors](https://github.com/jonschlinkert/parse-authors).
 
+
+**Related**
+
+ - [parse-author](https://github.com/jonschlinkert/parse-author)
+ - [parse-authors](https://github.com/jonschlinkert/parse-authors)
+
+
 ## Install
 #### Install with [npm](npmjs.org)
 
