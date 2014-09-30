@@ -3,6 +3,8 @@
 
 > Regular expression for parsing an `author` string into an object following npm conventions.
 
+This the regex used by [parse-authors](https://github.com/jonschlinkert/parse-authors).
+
 ## Install
 #### Install with [npm](npmjs.org)
 
