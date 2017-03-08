@@ -1,13 +1,13 @@
-/**
- * author-regex <https://github.com/assemble/author-regex>
+/*!
+ * author-regex <https://github.com/jonschlinkert/author-regex>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
- * Licensed under the MIT license.
+ * Copyright (c) 2014, 2017, Jon Schlinkert.
+ * Released under the MIT License.
  */
 
 'use strict';
 
 module.exports = function() {
-  return /^([^<(]+?)?[ \t]*(?:<([^>(]+?)>)?[ \t]*(?:\(([^)]+?)\)|$)/gm;
+  return /^\s*([^<(]*?)\s*([<(]([^>)]*?)[>)])?\s*([<(]([^>)]*?)[>)])*\s*$/;
 };
 
